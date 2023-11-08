@@ -6,9 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class FlowerStoreApplivation {
-
+public class FlowerStoreApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(FlowerStoreApplivation.class, args);
+		SpringApplication.run(FlowerStoreApplication.class, args);
 	}
 }
